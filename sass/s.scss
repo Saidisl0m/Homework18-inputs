@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+text-align: center;
+    width: 50%;
+    height: 100vh;
+    background: rgb(238, 238, 238);
+}
+input{
+    outline: 0;
+    overflow: scroll;
+    font-size: 20px;
+    margin-top: 60px;
+ width: 80%;
+    height: 8vh;
+    background: rgb(238, 238, 238);
+    border: none;
+border-bottom: 2px solid darkgray;
+}
+input:hover {
+    border-bottom: 3px solid darkcyan;
+}
+.i1{
+    border-bottom: 2px dotted darkgray; 
+}
+.i2{
+    border-bottom: 2px solid rgb(255, 0, 0); 
+}
+h1{
+    color: red;
+    margin-left: 80px;
+    text-align: start;
+    font-size: 17px;
+    font-weight: 100;
+}
