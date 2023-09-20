@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+$btn_bg{
+    border-bottom: 2px dotted darkgray;
+}
 .box{
     display: flex;
 text-align: center;
@@ -19,13 +22,13 @@ input{
     height: 8vh;
     background: rgb(238, 238, 238);
     border: none;
-border-bottom: 2px solid darkgray;
+$btn_bg
 }
 input:hover {
     border-bottom: 3px solid darkcyan;
 }
 .i1{
-    border-bottom: 2px dotted darkgray; 
+    $btn_bg
 }
 .i2{
     border-bottom: 2px solid rgb(255, 0, 0); 
